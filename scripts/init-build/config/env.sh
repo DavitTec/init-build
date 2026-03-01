@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-if [[ ! -f "$ROOT_DIR/.env" ]]; then
+if [[ ! -f "$PROJECT_ROOT/.env" ]]; then
   echo "❌ .env missing!"
   exit 1
 fi
 
-source "$ROOT_DIR/.env"
+source "$PROJECT_ROOT/.env"
