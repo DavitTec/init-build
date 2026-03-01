@@ -1,0 +1,3 @@
+ARCHIVES_DIR="$ROOT_DIR/archives"
+LOG_DIR="$ROOT_DIR/logs"
+TEMP_DIR="$ROOT_DIR/tmp"
