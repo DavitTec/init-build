@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
  
-STATE_DIR="$ROOT_DIR/.init-build"
+STATE_DIR="$PROJECT_ROOT/.init-build"
 STATE_FILE="$STATE_DIR/state.json"
 LOCK_FILE="$STATE_FILE.lock"
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-LIB_DIR="$ROOT_DIR/scripts/init-build"
+ LIB_DIR="$FRAMEWORK_ROOT"
 
 source "$LIB_DIR/state/state.sh"
 source "$LIB_DIR/utils/logger.sh"
