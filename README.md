@@ -70,4 +70,4 @@ Helpers are currently disabled until upgraded for headless mode.
 
 ## Version
 
-0.1.0
+0.1.1
