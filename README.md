@@ -1,5 +1,12 @@
 # init-build
 
+[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/DavitTec/init-build?style=for-the-badge&logo=github)](https://github.com/DavitTec/init-build/tag)
+[![GitHub open issues](https://img.shields.io/github/issues-raw/DavitTec/init-build?style=for-the-badge&label=Open%20Issues)](https://github.com/DavitTec/init-build/issues)
+[![GitHub top language](https://img.shields.io/github/languages/top/DavitTec/init-build?style=for-the-badge)](https://github.com/DavitTec/init-build)
+[![GitHub license](https://img.shields.io/github/license/DavitTec/init-build?style=for-the-badge)](https://github.com/DavitTec/init-build)
+
+---
+
 ## Description
 
 Modular, state-aware project bootstrap framework.
@@ -51,7 +58,7 @@ Run `init-build.sh`
 
 ```bash
 bash .bootstrap/scripts/init-build.sh build
- 
+
 ```
 
 Remove bootstrap
@@ -64,7 +71,7 @@ rm -rf .bootstrap
 
 ## Commands
 
-```
+```bash
 ./scripts/init-build.sh build
 ./scripts/init-build.sh snapshot
 ./scripts/init-build.sh status
@@ -74,7 +81,7 @@ rm -rf .bootstrap
 
 ## Architecture
 
-```
+```bash
 scripts/init-build/
   commands/
   phases/
@@ -91,4 +98,4 @@ Helpers are currently disabled until upgraded for headless mode.
 
 ## Version
 
-0.1.1
+0.1.2
