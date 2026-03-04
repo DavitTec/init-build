@@ -32,10 +32,31 @@ Designed to be reusable across multiple projects.
 
 ## Usage (Standalone)
 
-```
-git clone https://github.com/youruser/init-build.git .bootstrap
+```bash
+# create folder where you want this Package
+git clone https://github.com/DavitTec/init-build.git .bootstrap
 cp .bootstrap/.env.example .env
+```
+
+Update your environment settings
+
+correct `.env`
+
+```bash
+vim  ".env"
+
+```
+
+Run `init-build.sh `
+
+```bash
 bash .bootstrap/scripts/init-build.sh build
+rm -rf .bootstrap
+```
+
+Remove bootstrap
+
+```bash
 rm -rf .bootstrap
 ```
 
